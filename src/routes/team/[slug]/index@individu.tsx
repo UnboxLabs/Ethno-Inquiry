@@ -1,7 +1,10 @@
 import { Resource, component$ } from "@builder.io/qwik";
 import { useEndpoint } from "@builder.io/qwik-city";
 import { TEAMS } from "~/constants/team";
-import type { RequestHandler } from "@builder.io/qwik-city";
+import type {
+  RequestHandler,
+  StaticGenerateHandler,
+} from "@builder.io/qwik-city";
 import type { Team } from "~/constants/team";
 
 export const onGet: RequestHandler<{ person: Team | undefined }> = async ({
@@ -89,3 +92,13 @@ export default component$(() => {
     />
   );
 });
+
+export const onStaticGenerate: StaticGenerateHandler = () => {
+  const teams = TEAMS; // id data load implementation
+
+  return {
+    params: teams.map((person) => {
+      return { slug: person.slug };
+    }),
+  };
+};
