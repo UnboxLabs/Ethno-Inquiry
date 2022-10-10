@@ -35,21 +35,21 @@ export default component$(() => {
               <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
             </svg>
           </button>
-          <div className="flex">
+          <div className="flex flex-col items-center md:items-start md:flex-row">
             <img
               src={person?.avatar}
               alt={person?.name}
               className="rounded-full w-[180px] h-[180px]"
             />
 
-            <div className="ml-5">
-              <h2 className="text-2xl font-semibold text-gray-900 mb-1">
+            <div className="mt-5 ml-0 md:ml-5 md:mt-0">
+              <h2 className="text-2xl font-semibold text-gray-900 mb-1 text-center md:text-left">
                 {person?.name}
               </h2>
-              <p>{person?.long_description}</p>
+              <p className="text-justify">{person?.long_description}</p>
             </div>
           </div>
-          <div className="flex items-center justify-center mt-5">
+          <div className="flex flex-col md:flex-row items-center justify-center mt-5">
             <div className="flex items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
