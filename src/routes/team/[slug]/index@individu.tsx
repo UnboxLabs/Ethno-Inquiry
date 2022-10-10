@@ -50,7 +50,7 @@ export default component$(() => {
             </div>
           </div>
           <div className="flex flex-col md:flex-row items-center justify-center mt-5">
-            <div className="flex items-center">
+            <div className="flex items-center mb-2 md:mb-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
@@ -62,7 +62,7 @@ export default component$(() => {
                 {person?.email}
               </span>
             </div>
-            <div className="flex items-center ml-5">
+            <div className="flex items-center ml-5 mb-2 md:mb-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
@@ -74,7 +74,7 @@ export default component$(() => {
                 {person?.facebook}
               </span>
             </div>
-            <div className="flex items-center ml-5">
+            <div className="flex items-center ml-5 mb-2 md:mb-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
