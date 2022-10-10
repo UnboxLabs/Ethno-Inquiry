@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  #article h2 {
+    @apply text-xl font-semibold text-gray-900 mb-1;
+  }
+  #article p {
+    @apply mb-3;
+  }
+  .arrow-back {
+    @apply w-7 h-7 fill-gray-900;
+  }
+}
