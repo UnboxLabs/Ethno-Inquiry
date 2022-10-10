@@ -59,12 +59,12 @@ export const Navbar = component$(() => {
             <div class="flex flex-shrink-0 items-center">
               <img
                 class="block h-8 w-auto lg:hidden"
-                src="/img/logo-ei.png"
+                src="https://res.cloudinary.com/dc7x6wbfk/image/upload/v1665375902/ethno-inquiry/logo-ei_bhthsj.png"
                 alt="Ethno Inquiry"
               />
               <img
                 class="hidden h-8 w-auto lg:block"
-                src="/img/logo-ei.png"
+                src="https://res.cloudinary.com/dc7x6wbfk/image/upload/v1665375902/ethno-inquiry/logo-ei_bhthsj.png"
                 alt="Ethno Inquiry"
               />
             </div>

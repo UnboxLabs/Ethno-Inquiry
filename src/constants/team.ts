@@ -12,7 +12,8 @@ export interface Team {
 export const TEAMS: Team[] = [
   {
     name: "Saiful Prayogi",
-    avatar: "/img/team/p1.png",
+    avatar:
+      "https://res.cloudinary.com/dc7x6wbfk/image/upload/v1665375904/ethno-inquiry/team/p1_u6kghp.webp",
     description:
       "Senior Lecturer in the Physics Education Department, Mandalika University of Education (UNDIKMA), Mataram 83126 - Indonesia.",
     long_description:
@@ -24,7 +25,8 @@ export const TEAMS: Team[] = [
   },
   {
     name: "Sukainil Ahzan",
-    avatar: "/img/team/p2.jpg",
+    avatar:
+      "https://res.cloudinary.com/dc7x6wbfk/image/upload/v1665375903/ethno-inquiry/team/p2_dqexdd.webp",
     description:
       "Lecturer in the Physics Education Department, Faculty of Applied Science and Engineering - UNDIKMA, Mataram 83126 - Indonesia.",
     long_description:
@@ -36,7 +38,8 @@ export const TEAMS: Team[] = [
   },
   {
     name: "Indriaturrahmi",
-    avatar: "/img/team/p3.jpg",
+    avatar:
+      "https://res.cloudinary.com/dc7x6wbfk/image/upload/v1665375903/ethno-inquiry/team/p3_jjof4k.webp",
     description:
       "Lecturer and head of the Department of Information Technology Education, Faculty of Applied Science and Engineering - UNDIKMA, Mataram 83126 - Indonesia.",
     long_description:
@@ -48,7 +51,8 @@ export const TEAMS: Team[] = [
   },
   {
     name: "Joni Rokhmat",
-    avatar: "/img/team/p4.jpg",
+    avatar:
+      "https://res.cloudinary.com/dc7x6wbfk/image/upload/v1665375904/ethno-inquiry/team/p4_v5d1jj.webp",
     description:
       "Professor of Science Education, educator, researcher, and senior lecturer at the University of Mataram.",
     long_description:
